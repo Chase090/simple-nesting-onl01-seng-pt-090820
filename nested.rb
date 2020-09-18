@@ -83,6 +83,10 @@ def adding_matz
         }
      }
 
+programmer_hash[:third] = "i'm third!"
+ 
+puts my_hash
+
     
 end
 
