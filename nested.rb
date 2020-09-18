@@ -94,14 +94,15 @@ def adding_matz
         }
      }
      
-     my_hash = {first: "i'm first!", second: "i'm second!"}
-my_hash = {first: "i'm first!", second: "i'm second!", third: "i'm third!"}
+    programmer_hash[:yukihiro_matsumoto] => {
+      :known_for => "Ruby",
+      :languages => ["LISP", "C"] 
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
-    
+    return programmer_hash
 end
 
 def changing_alan
