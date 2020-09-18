@@ -76,11 +76,7 @@ def adding_matz
         }
      }
      return programmer_hash[:dennis_ritchie][:languages] = "C"
-# add the following information to the top level of programmer_hash
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#    :languages => ["LISP", "C"]
-# }
+
 
 	programmer_hash = 
  		{
@@ -97,7 +93,14 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+     
+     my_hash = {first: "i'm first!", second: "i'm second!"}
+my_hash = {first: "i'm first!", second: "i'm second!", third: "i'm third!"}
+# add the following information to the top level of programmer_hash
+# :yukihiro_matsumoto => {
+#   :known_for => "Ruby",
+#    :languages => ["LISP", "C"]
+# }
     
 end
 
