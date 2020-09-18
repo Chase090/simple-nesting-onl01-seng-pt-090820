@@ -83,9 +83,12 @@ def adding_matz
         }
      }
 
-programmer_hash[:third] = "i'm third!"
+programmer_hash[:yukihiro_matsumoto] => {
+   :known_for => "Ruby",
+    :languages => ["LISP", "C"]
+ }
  
-puts my_hash
+return programmer_hash
 
     
 end
